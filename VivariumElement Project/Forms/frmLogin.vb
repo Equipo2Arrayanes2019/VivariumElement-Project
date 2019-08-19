@@ -2,7 +2,7 @@
 Imports Domain
 Public Class frmLogin
     Private Sub frmLogin_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
+        cboxShowPassword.TabStop = False
     End Sub
     Private Sub cboxShowPassword_CheckedChanged(sender As Object, e As EventArgs) Handles cboxShowPassword.CheckedChanged
         If txtLPassword.UseSystemPasswordChar = True Then
